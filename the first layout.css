@@ -1,0 +1,94 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #202020;
+}
+
+.wrap {
+  display: flex;
+  margin: auto;
+  width: 1310px;
+}
+
+.main-header .wrap {
+  text-align: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.logo {
+  display: block;
+}
+
+.logo__trade {
+  width: 140px;
+  height: 44px;
+}
+
+.navigate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.navigate a {
+  margin-right: 90px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.navigate a:hover {
+  color: orange;
+  background-color: olivedrab;
+}
+
+.navigate a:last-child {
+  margin-right: 0;
+}
+
+.butt {
+  text-align: center;
+  align-content: center;
+  width: 162px;
+  height: 50px;
+  border-radius: 34px;
+  border-color: orange;
+  border: double;
+  box-sizing: border-box;
+  font-weight: 600;
+  background-color: white;
+  overflow: hidden;
+}
+
+.butt:hover {
+  color: saddlebrown;
+  background-color: greenyellow;
+}
+
+.hero {
+  display: flex;
+  /*justify-content: flex-start;
+  align-content: flex-start;*/
+  width: 554px;
+  height: 218px;
+  margin-top: 77px;
+  margin-left: 80px;
+}
+
+.spend p {
+  font-size: 63px;
+}
+
+.spend img {
+  width: 222px;
+  height: 106px;
+  float: left;
+  margin-right: 30px;
+  margin-left: -50px;
+  margin-bottom: -10px;
+}
